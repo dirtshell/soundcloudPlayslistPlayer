@@ -4,6 +4,6 @@ SC.initialize({
 
 $(document).ready(function() {
   SC.get('/tracks/293', function(track) {
-    SC.oEmbed(track.permalink_url, { maxHeight: 166 }, document.getElementById('player'));
+    SC.oEmbed(track.permalink_url, { maxheight: 166 }, document.getElementById('player'));
   })
 });
